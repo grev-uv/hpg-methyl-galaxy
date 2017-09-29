@@ -4,7 +4,7 @@
     $__tool_directory__/hpg-methyl bs 
     #if str( $input_gen.input_gen_selector ) == "g37":
     ## GALAXY ADMINISTRATOR: Replace with the G37 BWT index installation directory
-      -i /genome/ssd/index_bs_previous
+      -i /path/to/the/g37/index
     #else if str( $input_gen.input_gen_selector ) == "g38":
     ## GALAXY ADMINISTRATOR: Replace with the G38 BWT index installation directory
       -i /path/to/the/g38/index

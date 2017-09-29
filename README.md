@@ -12,6 +12,10 @@ Galaxy plugin of the HPG-Methyl aligner and methylation caller.
 4. Manually generate the built-in indices if they're enabled. Check the documentation of 
    [HPG-Methyl](https://github.com/grev-uv/hpg-methyl) for instructions on how to generate the indices.
 
+**Warning:** Genomic indices can take a large ammount of disk space. For the GRCh37 reference genome, the corresponding
+index size is around **237 GB**. Ensure that the target filesystem has enough disk space and users have enough disk quota
+before enabling custom genomic index generation.
+
 ## Manual installation instructions
 
 In case you don't want to install the tool from the public toolshed, it can be installed manually:
